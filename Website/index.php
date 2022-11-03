@@ -8,7 +8,23 @@
         <title>HOME | John Oreo</title>
     </head>
     <body>
-    
+
+        <header class="header">
+            <div class="logo">
+                <a href="index.php">
+                    <i class="fa-solid fa-cookie-bite"></i>
+                </a>
+            </div>
+
+            <nav class="navbar">
+                <a href="aboutme.php">About</a>
+                <a href="currentprojects.php">Projects</a>
+                <a href="resume.php">Resume</a>
+                <a href="contact.php">Contact</a>
+            </nav>
+
+        </header>
+
         <?php
 
         ?>

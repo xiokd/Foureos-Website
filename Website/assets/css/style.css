@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Noto+Sans+Display:ital@0;1&display=swap');
+
+a {
+    color:black;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Encode Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header {
+    position: sticky;
+    top:0; 
+    left:0; 
+    right:0;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .10rem 1rem grey;
+}
+
+.header {
+    padding: 2rem 10%;
+    font-size: 2.5rem;
+}
+
+.logo {
+    font-size: 3.5rem;
+}
