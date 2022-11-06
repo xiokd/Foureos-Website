@@ -14,19 +14,67 @@ html {
     margin:0; 
     padding:0;
     box-sizing: border-box;
-    outline: none; 
-    border: none;
     text-decoration: none;
     text-transform: capitalize;
+    overflow: hidden;
 }
 
 header {
     display: flex;
+    border:none;
     justify-content: space-between;
     align-items: center;
     padding: 30px 5%;
     box-shadow: 0 .10rem 1rem grey;
     font-size: 2.5rem;
+}
+
+form textarea {
+    height: 250px;
+    resize: none;
+}
+
+.contact {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contact-button {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    
+    border-style: solid;
+    padding: 35px;
+    border-radius: 7px;
+    border-width: 2px;
+}
+
+.contact-input {
+    width: 100%;
+    font-size: 14px;
+    margin: 5px auto;
+    padding: 13px 13px 13px;
+    border-width: 1px;
+}
+
+.contact-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
 }
 
 .logo {
@@ -45,3 +93,4 @@ header {
 ul li a:hover {
     color: grey;
 }
+
