@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Contact | John Oreo</title>
     </head>
-    <body>
-        <div class="container">
+    <body class="body-contact">
+        <div>
             <?php
                 include_once("navbar.html");
             ?>
-            <div class="contact">    
+            <div class="contact container-contact">    
                 <form class="contact-form" action="contactform.php" method="post">
                     <h1 class="contact-title">Contact Me</h1>
                     <input type="text" name="name" class="contact-input" placeholder="Full Name">
