@@ -12,6 +12,27 @@
         <?php
             include_once("navbar.html");
         ?>
-        
+
+        <section class="aboutme" id="aboutme">
+
+            <div class="intro">
+                <h1>About Me</h1>
+
+
+
+                <p>Hello friendly reader! I assume you have come here to learn
+                    more about what makes this wonderful brain tick. Well,
+                    look no further as I grant you the amazing knowledge of my
+                    youth!</p>
+
+            </div>
+
+            <div class="johnshome">
+                <img src="johnshome.jpg" alt="The run-down silo John Oreo grew up in." />
+            </div>
+
+        </section>
+
+
     </body>
 </html>
