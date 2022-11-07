@@ -101,3 +101,64 @@ ul li a:hover {
     color: grey;
 }
 
+/* Brennen's About Me Section for John Oreo */
+
+.aboutme {
+    float: left;
+    background-image: url("https://wallpapercave.com/wp/uZhkn80.jpg");
+    color: whitesmoke;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    border: black;
+}
+
+.aboutme .intro {
+
+}
+
+
+.aboutme .intro h1 {
+    font-size: 6rem;
+    text-decoration: underline;
+    margin-left: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    line-height: 6rem;
+}
+
+
+.aboutme .intro p {
+    float: left;
+    margin-top: 3rem;
+    margin-right: 45rem;
+    margin-left: 3rem;
+
+    padding-right: 4rem;
+    padding-left: 3rem;
+
+    border-style: inset;
+    border-radius: 1rem;
+    border-width: .5rem;
+
+    background: rgba(67, 67, 67, 0.7);
+
+    text-align-last: left;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+.aboutme .johnshome div {
+    float: right;
+}
+
+.aboutme .johnshome img {
+    float: right;
+
+    margin-left: 40rem;
+    height: 200px;
+    width: 300px;
+    border: grey 2px;
+    border-style: outset;
+}
+
