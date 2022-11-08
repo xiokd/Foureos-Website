@@ -15,7 +15,7 @@ html {
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
-    overflow: hidden;
+    overflow: auto;
 }
 
 header {
@@ -104,6 +104,8 @@ ul li a:hover {
 /* Brennen's About Me Section for John Oreo */
 
 .aboutme {
+    margin-top: .5rem;
+    overflow: auto;
     float: left;
     background-image: url("https://wallpapercave.com/wp/uZhkn80.jpg");
     color: whitesmoke;
@@ -112,19 +114,18 @@ ul li a:hover {
     border: black;
 }
 
-.aboutme .intro {
-
-}
 
 
 .aboutme .intro h1 {
     font-size: 6rem;
     text-decoration: underline;
     margin-left: 2rem;
+    margin-top: 3rem;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: .25rem;
     line-height: 6rem;
+    overflow: hidden;
 }
 
 
@@ -148,17 +149,55 @@ ul li a:hover {
     text-transform: none;
 }
 
-.aboutme .johnshome div {
+.aboutme .johnOreoProfile img {
     float: right;
+    height: 275px;
+    width: 200px;
+    border: grey 4px;
+    border-style: outset;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
 }
 
-.aboutme .johnshome img {
-    float: right;
 
-    margin-left: 40rem;
+.aboutme .earlyLife h2 {
+    font-size: 6rem;
+    text-decoration: underline;
+    margin-right: 2rem;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    line-height: 6rem;
+    overflow: hidden;
+}
+
+.aboutme .earlyLife p {
+    float: right;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 45rem;
+
+    padding-right: 4rem;
+    padding-left: 3rem;
+
+    border-style: inset;
+    border-radius: 1rem;
+    border-width: .5rem;
+
+    background: rgba(67, 67, 67, 0.7);
+
+    text-align-last: left;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+.aboutme .earlyLife .johnsHome img {
+    float: left;
     height: 200px;
     width: 300px;
-    border: grey 2px;
+    border: grey 4px;
     border-style: outset;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    overflow: auto;
 }
-
