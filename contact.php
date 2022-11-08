@@ -20,7 +20,7 @@
                     <input type="email" name="email" class="contact-input" placeholder="Your Email">
                     <input type="text" name="subject" class="contact-input" placeholder="Subject">
                     <textarea name="message" class="contact-input" placeholder="Message"></textarea>
-                    <button type="submit" class="contact-button" name="submit">Send</button>
+                    <button type="submit" class="contact-button">Send</button>
                 </form>
             </div> 
         </div>
