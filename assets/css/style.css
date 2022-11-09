@@ -51,12 +51,16 @@ form textarea {
     margin: 0;
     height: 100vh;
     overflow: hidden;
+    background-image: url(/assets/images/oreo_background_blur.png);
 }
 
 .contact-button {
     width: 100%;
     font-size: 15px;
     padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(60, 60, 60);
+    color: white;
 }
 
 .contact-form {
@@ -70,8 +74,9 @@ form textarea {
     padding-right: 35px;
     padding-bottom: 25px;
     padding-left: 35px;
-    border-radius: 7px;
-    border-width: 2px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .contact-input {
@@ -80,6 +85,7 @@ form textarea {
     margin: 5px auto;
     padding: 13px 13px 13px;
     border-width: 1px;
+    border-radius: 10px;
 }
 
 .contact-title {
