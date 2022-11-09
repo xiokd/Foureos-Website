@@ -162,3 +162,14 @@ ul li a:hover {
     border-style: outset;
 }
 
+/* Nick's css code portion*/
+
+.currentprojects
+{
+    float: left;
+    background-image: url("https://wallpapercave.com/wp/uZhkn80.jpg");
+    color: whitesmoke;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    border: black;
+}
