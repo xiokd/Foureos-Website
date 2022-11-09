@@ -21,6 +21,11 @@
                     <input type="text" name="subject" class="contact-input" placeholder="Subject">
                     <textarea name="message" class="contact-input" placeholder="Message"></textarea>
                     <button type="submit" class="contact-button">Send</button>
+                    <div class="form-message">
+                        <div class="form-success">
+                            The message was sent successfully!
+                        </div>
+                    </div>
                 </form>
             </div> 
         </div>
