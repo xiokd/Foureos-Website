@@ -40,21 +40,18 @@
                 to evolve the standard of living as humanity knew it. I knew what
                 must be done, I must do something extraordinary, something revolutionary,
                 something...confectionary!</p>
+            </div>
 
                 <div class="johnsHome">
                     <img src="assets/images/johnshome.jpg" alt="My humble home, a rusty silo
                        where I grew up. The farmhouse had to be rented out to others."/>
-                </div>
-
-
             </div>
 
 
-
         </section>
-
         <?php
         include_once("footer.html");
         ?>
+
     </body>
 </html>
