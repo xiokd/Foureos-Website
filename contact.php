@@ -29,5 +29,11 @@
                 </form>
             </div> 
         </div>
+<<<<<<< Updated upstream
+=======
+        <?php
+        include_once("footer.html");
+        ?>
+>>>>>>> Stashed changes
     </body>
 </html>
