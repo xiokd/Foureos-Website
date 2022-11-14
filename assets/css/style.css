@@ -140,9 +140,42 @@ ul li a:hover {
     color: grey;
 }
 
+/* Footer CSS */
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    background-color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.footerLinks {
+    list-style: none;
+}
+
+.footerLinks li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.footerContent p {
+    padding-top: 0.7rem;
+    color: black;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+
+
+
 /* Brennen's About Me Section for John Oreo */
 
 .aboutme {
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-top: .5rem;
     overflow: auto;
     float: left;
@@ -230,7 +263,7 @@ ul li a:hover {
     text-transform: none;
 }
 
-.aboutme .earlyLife .johnsHome img {
+.aboutme .johnsHome img {
     float: left;
     height: 200px;
     width: 300px;

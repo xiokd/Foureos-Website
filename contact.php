@@ -26,6 +26,11 @@
                 </form>
             </div>
         </div>
+        
+        <?php
+          include_once("footer.html");
+        ?>
+
         <script>
             $(document).ready(function() {
                 $("#submit").click(function() {
