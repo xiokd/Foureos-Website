@@ -12,6 +12,14 @@
         <?php
             include_once("navbar.html");
         ?>
-        
+        <img src = "assets/images/projectPics/tunafish.jpg" width = "300" height="200" title="The Infamous Tuna Fish Oreo" />
+
+        <style>
+            p {
+                background-image: url('assets/images/projectPics/tunafish.jpg');
+            }
+        </style>
+
+
     </body>
 </html>
