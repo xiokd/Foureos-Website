@@ -98,13 +98,18 @@ form textarea {
     justify-content: center;
 }
 
+.form-error {
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    display: block;
+}
+
 .form-success {
     font-size: 14px;
     color: green;
     position: absolute;
-    
-    /* Change to block when necessary*/
-    display: none;
+    display: block;
 }
 
 .contact-button {
