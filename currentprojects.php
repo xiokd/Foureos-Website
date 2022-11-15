@@ -9,17 +9,22 @@
         <title>Projects | John Oreo</title>
     </head>
     <body>
-        <?php
-            include_once("navbar.html");
-        ?>
-        <img src = "assets/images/projectPics/tunafish.jpg" width = "300" height="200" title="The Infamous Tuna Fish Oreo" />
+    <?php
+    include_once("navbar.html");
+    ?>
+    <section class="currentprojects" id="currentprojects">
 
-        <style>
-            p {
-                background-image: url('assets/images/projectPics/tunafish.jpg');
-            }
-        </style>
+        <div class = "project1">
+        <img src = "assets/images/projectPics/tunafish.jpg" width = "300" height="200" title="The Infamous Tuna Fish Oreo" style="float: left" />
+            <p style="color:rebeccapurple;font-size:30px">the tuna fish Oreo is a personally favorite of mine</p>
+        </div>
 
+        <div class = "project2">
+            <img src = "assets/images/projectPics/AvocadoToast.jpg" width = "300" height="200" title="The Infamous Tuna Fish Oreo" style="float: left" />
+            <p style="color:rebeccapurple;font-size:30px">In the creation of this Oreo I was thinking </p>
+        </div>
+
+    </section>
 
     </body>
 </html>

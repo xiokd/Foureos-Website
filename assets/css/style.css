@@ -227,14 +227,17 @@ ul li a:hover {
     overflow: auto;
 }
 
-/* Nick's css code portion*/
-
-.currentprojects
+/* Nick's css code portion for currentprojects*/
+/* (ctrl shift i) in firefox or chrome*/
+#currentprojects
 {
-    float: left;
-    background-image: url("https://wallpapercave.com/wp/uZhkn80.jpg");
-    color: whitesmoke;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    border: black;
+    /*float: left;*/
+    background-image: url("../images/projectBackground.jpeg");
+    /*color: whitesmoke;*/
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 1080px;
+    min-width: 1080px;
+    /*background-attachment: scroll;*/
+    /*border: black;*/
 }
