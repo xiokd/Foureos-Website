@@ -86,7 +86,7 @@ form textarea {
     border-radius: 20px;
     overflow: hidden;
     width: 450px;
-    height: 600px
+    height: 600px;
 }
 
 .form-message {
@@ -138,6 +138,28 @@ form textarea {
 
 ul li a:hover {
     color: grey;
+}
+
+/* Home page CSS */
+
+.home-container {
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    border-width: 0px;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 465px;
+    height: 665px;
+    overflow: hidden;
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
 }
 
 /* Footer CSS */
