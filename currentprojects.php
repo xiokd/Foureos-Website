@@ -22,6 +22,7 @@
         <div class = "project2">
             <img src = "assets/images/projectPics/AvocadoToast.jpg" width = "300" height="200" title="The Infamous Tuna Fish Oreo" style="float: left" />
             <p style="color:rebeccapurple;font-size:30px">In the creation of this Oreo I was thinking </p>
+            
         </div>
 
     </section>
