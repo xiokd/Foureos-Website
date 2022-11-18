@@ -243,7 +243,7 @@ footer {
 
 
 
-.aboutme .intro h1 {
+.aboutme .leftText h1 {
     font-size: 6rem;
     text-decoration: underline;
     margin-left: 2rem;
@@ -256,10 +256,10 @@ footer {
 }
 
 
-.aboutme .intro p {
+.aboutme .leftText p {
     float: left;
     margin-top: 3rem;
-    margin-right: 45rem;
+    margin-right: 40%;
     margin-left: 3rem;
 
     padding-right: 4rem;
@@ -278,19 +278,21 @@ footer {
 
 .aboutme .johnOreoProfile img {
     float: right;
-    height: 275px;
-    width: 200px;
+    height: 378px;
+    width: 275px;
     border: grey 4px;
     border-style: outset;
     margin-right: 2rem;
     margin-bottom: 3rem;
+
 }
 
 
-.aboutme .earlyLife h2 {
+.aboutme .rightText h2 {
     font-size: 6rem;
     text-decoration: underline;
     margin-right: 2rem;
+    margin-top: 3rem;
     text-align: right;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -298,11 +300,11 @@ footer {
     overflow: hidden;
 }
 
-.aboutme .earlyLife p {
+.aboutme .rightText p {
     float: right;
     margin-top: 3rem;
     margin-right: 3rem;
-    margin-left: 45rem;
+    margin-left: 40%;
 
     padding-right: 4rem;
     padding-left: 3rem;
@@ -320,8 +322,8 @@ footer {
 
 .aboutme .johnsHome img {
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     border: grey 4px;
     border-style: outset;
     margin-left: 2rem;
@@ -329,6 +331,27 @@ footer {
     overflow: auto;
 }
 
+.aboutme .oreoStack img {
+    float: right;
+    height: 350px;
+    width: 350px;
+    border: grey 4px;
+    border-style: outset;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+.aboutme .aftermathOf1912 img {
+    float: left;
+    height: 250px;
+    width: 500px;
+    border: grey 4px;
+    border-style: outset;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    overflow: auto;
+}
 /* Nick's css code portion*/
 
 .currentprojects
