@@ -142,19 +142,52 @@ ul li a:hover {
 
 /* Home page CSS */
 
+.index-content {
+    display:block;
+    position: relative;
+    margin-top: 100px;
+    overflow-y: auto;
+    display: flex;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
 .home-container {
-    padding-top: 35px;
-    padding-right: 35px;
-    padding-bottom: 25px;
-    padding-left: 35px;
-    border-width: 0px;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
 }
 
 .image-container {
     width: 465px;
     height: 665px;
     overflow: hidden;
+}
+
+.index-text {
+    width: 465px;
+    height: 665px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-text-title {
+    color: white;
+    font-size: 4.5rem;
+    padding: 10px;
+}
+
+.index-text-body {
+    font-size: 2.5rem;
+    display: block;
+    background-color: white;
+    padding: 5px;
 }
 
 .home-image {

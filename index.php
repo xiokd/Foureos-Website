@@ -13,11 +13,15 @@
             include_once("navbar.html");
         ?>
 
-        <div class="body-content">
+        <div class="index-content">
             <div class="home-container">
                 <div class="image-container">
                         <img class="home-image" src="assets/images/john_oreo.png"/>
                 </div>
+                <div class="index-text">
+                    <h3 class="index-text-title">Hi, I am John Oreo</h3>
+                    <span class="index-text-body">THE original cookie creator</span>
+                </div>    
             </div>
         </div>
 
