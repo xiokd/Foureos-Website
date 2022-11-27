@@ -86,7 +86,7 @@ form textarea {
     border-radius: 20px;
     overflow: hidden;
     width: 450px;
-    height: 600px
+    height: 600px;
 }
 
 .form-message {
@@ -140,6 +140,61 @@ ul li a:hover {
     color: grey;
 }
 
+/* Home page CSS */
+
+.index-content {
+    display:block;
+    position: relative;
+    margin-top: 100px;
+    overflow-y: auto;
+    display: flex;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.image-container {
+    width: 465px;
+    height: 665px;
+    overflow: hidden;
+}
+
+.index-text {
+    width: 465px;
+    height: 665px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-text-title {
+    color: white;
+    font-size: 4.5rem;
+    padding: 10px;
+}
+
+.index-text-body {
+    font-size: 2.5rem;
+    display: block;
+    background-color: white;
+    padding: 5px;
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+}
+
 /* Footer CSS */
 footer {
     bottom: 0;
@@ -168,6 +223,25 @@ footer {
 
 
 /* ~~~User Log in and Admin Page~~~ */
+
+.login-title {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.login-input {
+    width: 100%;
+    font-size: 14px;
+    margin: 5px auto;
+    padding: 13px 13px 13px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.register-text {
+    font-size: 35px;
+}
 
 .logContainer {
     background-image: url(/assets/images/oreo_background_blur.png);
@@ -238,9 +312,6 @@ footer {
 
 .regFormContainer form {
     padding:20px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    background: darkslategray;
     text-align: center;
     width: 500px;
 }
@@ -258,15 +329,19 @@ footer {
     padding: 10px 15px;
     font-size: 15px;
     margin:8px 0;
-    background: darkslategray;
+    background: white;
     border-radius: 7px;
 }
 
 .regFormContainer form .form-btn {
-    background: gray;
-    color: whitesmoke;
-    text-transform: capitalize;
-    font-size: 20px;
+    background-color: rgb(0, 206, 209);
+    width: 35%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border-width: 1px;
+    color: white;
     cursor: pointer;
 }
 .regFormContainer form .form-btn:hover {
