@@ -23,7 +23,7 @@
                 $error[] = 'Passwords do not match.';
             }
             else {
-                $insert = "INSERT INTO user_form(name, email, password, user_type) VALUES('$name, $email, $pass, $user_type')";
+                $insert = "INSERT INTO user_form(name, email, password, user_type) VALUES('$name', '$email', '$pass', '$user_type')";
                 mysqli_query($aConn, $insert);
                 header('location:login_form.php');
             }
@@ -52,8 +52,8 @@
         if(isset($error)) {
             foreach($error as $error) {
                 echo '<span class="error-msg">' . $error . '</span>';
-            }
-        }
+            };
+        };
 
         ?>
 
