@@ -222,9 +222,134 @@ footer {
 }
 
 
+/* ~~~User Log in and Admin Page~~~ */
+
+.logContainer {
+    background-image: url(/assets/images/oreo_background_blur.png);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.logContainer .logContainerContent {
+    font-size: 5rem;
+    color: white;
+}
+.logContainer .logContainerContent h3 {
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+.logContainer .logContainerContent h3 span {
+    background: darkslategrey;
+    border-radius: 7px;
+    padding:0 10px;
+}
+.logContainer .logContainerContent h1 {
+   font-size: 10rem;
+    color: whitesmoke;
+}
+.logContainer .logContainerContent h1 span {
+color: green;
 
 
-/* Brennen's About Me Section for John Oreo */
+}
+
+.logContainer .logContainerContent p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.logContainer .logContainerContent .btn {
+    display: inline-block;
+    padding:10px 30px;
+    dont-size: 20px;
+    background: darkslategrey;
+    border-radius: 7px;
+    color: whitesmoke;
+    margin:0 5px;
+    text-transform: capitalize;
+}
+.logContainer .logContainerContent .btn:hover {
+    background-image: url(/assets/images/oreoback.jpg);
+    background-size: 50px;
+}
+
+
+/* Registration Form CSS */
+.regFormContainer {
+    background-image: url(/assets/images/oreo_background_blur.png);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.regFormContainer form {
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    background: darkslategray;
+    text-align: center;
+    width: 500px;
+}
+
+.regFormContainer form h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.regFormContainer form input,
+.regFormContainer form select {
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin:8px 0;
+    background: darkslategray;
+    border-radius: 7px;
+}
+
+.regFormContainer form .form-btn {
+    background: gray;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.regFormContainer form .form-btn:hover {
+    background: whitesmoke;
+    color: darkslategray;
+}
+
+.regFormContainer form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.regFormContainer form p a {
+    color: cornflowerblue;
+}
+
+.regFormContainer form .error-msg {
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color:whitesmoke;
+    border-radius: 5px;
+    font-size: 20px;
+
+
+}
+
+
+    /* Brennen's About Me Section for John Oreo */
 
 .aboutme {
     padding-top: 15rem;
