@@ -224,6 +224,25 @@ footer {
 
 /* ~~~User Log in and Admin Page~~~ */
 
+.login-title {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.login-input {
+    width: 100%;
+    font-size: 14px;
+    margin: 5px auto;
+    padding: 13px 13px 13px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.register-text {
+    font-size: 35px;
+}
+
 .logContainer {
     background-image: url(/assets/images/oreo_background_blur.png);
     min-height: 100vh;
@@ -292,9 +311,6 @@ color: green;
 
 .regFormContainer form {
     padding:20px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    background: darkslategray;
     text-align: center;
     width: 500px;
 }
@@ -312,15 +328,19 @@ color: green;
     padding: 10px 15px;
     font-size: 15px;
     margin:8px 0;
-    background: darkslategray;
+    background: white;
     border-radius: 7px;
 }
 
 .regFormContainer form .form-btn {
-    background: gray;
-    color: whitesmoke;
-    text-transform: capitalize;
-    font-size: 20px;
+    background-color: rgb(0, 206, 209);
+    width: 35%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border-width: 1px;
+    color: white;
     cursor: pointer;
 }
 .regFormContainer form .form-btn:hover {
