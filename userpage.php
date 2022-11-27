@@ -1,3 +1,15 @@
+<?php
+@include 'accountconfig.php';
+
+session_start();
+
+if(!isset($_SESSION['user_name'])) {
+    header('location:login_form.php');
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +25,7 @@
 <div class="logContainer">
     <div class="logContainerContent">
         <h3>Hello <span>Follower of John Oreo</span></h3>
-        <h1>Welcome<span></span></h1>
+        <h1>Welcome<span><?php echo " " . $_SESSION['user_name'] ?></span></h1>
         <p>This is the user page for the Followers of John.</p>
         <a href="login_form.php" class="btn">Log In</a>
         <a href="register_form.php" class="btn">Register</a>

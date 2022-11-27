@@ -268,11 +268,12 @@ footer {
     padding:0 10px;
 }
 .logContainer .logContainerContent h1 {
-   font-size: 10rem;
+   font-size: 7rem;
+    padding: 20px;
     color: whitesmoke;
 }
 .logContainer .logContainerContent h1 span {
-color: green;
+    color: dodgerblue;
 
 
 }
