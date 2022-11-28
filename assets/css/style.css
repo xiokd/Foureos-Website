@@ -499,6 +499,26 @@ footer {
     overflow: auto;
 }
 
+/* About Me */
+
+.resume-content {
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: .5rem;
+    overflow: auto;
+    float: left;
+    background-image: url(/assets/images/oreo_background_blur.png);
+    color: whitesmoke;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    border: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Nick's css code portion*/
 
