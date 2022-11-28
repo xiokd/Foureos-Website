@@ -12,6 +12,11 @@
         <?php
             include_once("navbar.html");
         ?>
-        
+
+    <div class="resume">
+        <img src="assets/images/johnOreoResu"
+    </div>
+
+
     </body>
 </html>
