@@ -13,9 +13,15 @@
             include_once("navbar.html");
         ?>
 
-    <div class="resume">
-        <img src="assets/images/johnOreoResu"
+        <div class="aboutme">
+    <div class="resumeImage">
+        <img src="assets/images/JohnOreoResume1024_1.jpg" alt="The Resume of the Great." />
     </div>
+    </div>
+
+        <?php
+        include_once("footer.html");
+        ?>
 
 
     </body>
