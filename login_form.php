@@ -38,6 +38,10 @@ if(isset($_POST['submit'])) {
 
 ?>
 
+<?php
+include_once("navbar.html");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,6 +76,8 @@ if(isset($_POST['submit'])) {
 
 
 </div>
-
+<?php
+include_once("footer.html");
+?>
 </body>
 </html>

@@ -10,6 +10,9 @@ if(!isset($_SESSION['admin_name'])) {
 
 ?>
 
+<?php
+include_once("navbar.html");
+?>
 
 <!DOCTYPE html>
 <html>
@@ -35,7 +38,9 @@ if(!isset($_SESSION['admin_name'])) {
 
 
 </div>
-
+<?php
+include_once("footer.html");
+?>
 </body>
 </html>
 
