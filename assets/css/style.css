@@ -352,14 +352,5 @@ footer {
     margin-bottom: 3rem;
     overflow: auto;
 }
-/* Nick's css code portion*/
 
-.currentprojects
-{
-    float: left;
-    background-image: url("https://wallpapercave.com/wp/uZhkn80.jpg");
-    color: whitesmoke;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    border: black;
-}
+
