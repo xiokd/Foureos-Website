@@ -498,31 +498,29 @@ footer {
     margin-bottom: 3rem;
     overflow: auto;
 }
-<<<<<<< HEAD
-=======
+/* Nick section*/
 
-/* About Me */
+.currentprojects .rightText{
+    float: right;
+    margin-top: 3rem;
+    margin-right: 0rem;
+    margin-left: 45%;
+    margin-top: -25rem;
+    z-index: 0;
 
-.resume-content {
-    padding-top: 15rem;
-    padding-bottom: 20rem;
-    padding-left: 4rem;
     padding-right: 4rem;
-    margin-top: .5rem;
-    overflow: auto;
-    float: left;
-    background-image: url(/assets/images/oreo_background_blur.png);
-    color: whitesmoke;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    border: black;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    padding-left: 3rem;
 
-/* Nick's css code portion*/
->>>>>>> main
+    border-style: inset;
+    border-radius: 1rem;
+    border-width: .5rem;
+
+    background: rgba(67, 67, 67, 0.7);
+
+    text-align-last: left;
+    font-size: 2rem;
+    text-transform: none;
+    color: antiquewhite;
+}
 
 
