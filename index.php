@@ -10,7 +10,7 @@
     </head>
     <body class="body-background">
         <?php
-            include_once("navbar.html");
+            include_once("navbar.php");
         ?>
 
         <div class="index-content">

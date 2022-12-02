@@ -34,7 +34,7 @@
 ?>
 
 <?php
-include_once("navbar.html");
+include_once("navbar.php");
 ?>
 
 <!DOCTYPE html>

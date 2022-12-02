@@ -21,7 +21,7 @@
 </style>
 <body>
 <?php
-include_once("navbar.html");
+include_once("navbar.php");
 ?>
 <section class="currentprojects" id="currentprojects">
 

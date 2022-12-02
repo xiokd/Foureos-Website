@@ -10,7 +10,7 @@
     </head>
     <body>
         <?php
-            include_once("navbar.html");
+            include_once("navbar.php");
         ?>
 
         <div class="resume-content">
