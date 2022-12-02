@@ -25,7 +25,7 @@ if(isset($_POST['submit'])) {
         }
 
         else if ($row['user_type'] == 'user') {
-            $_SESSION['user_name'] == $row['name'];
+            $_SESSION['user_name'] = $row['name'];
             header('location:userpage.php');
         }
     }
