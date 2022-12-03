@@ -10,6 +10,7 @@
     </head>
     <body class="body-background">
         <?php
+            session_start();
             include_once("navbar.php");
         ?>
 

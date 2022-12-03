@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,12 +26,24 @@
 
             <nav>
                 <ul class="nav-links">
+                    <?php if (isset($_SESSION['admin_name'])) {
+                    echo ' <li><a style="color: red" href="adminpage.php">Account Page</a></li>';
+                    }
+
+                    else if(isset($_SESSION['user_name'])) {
+                        echo '<li><a style="color: blue" href="userpage.php">Account Page</a></li>';
+                    }
+                    else {
+
+                    }
+                    ?>
                     <li><a href="aboutme.php">About</a></li>
                     <li><a href="currentprojects.php">Projects</a></li>
                     <li><a href="resume.php">Resume</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <?php
-                        if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+
+                        if(isset($_SESSION['user_name']) || isset($_SESSION['admin_name'])) {
                             echo '<li><a href="logout.php">Log Out</a></li>';
                         }
                         else {

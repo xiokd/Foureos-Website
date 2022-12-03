@@ -21,6 +21,7 @@
 </style>
 <body>
 <?php
+session_start();
 include_once("navbar.php");
 ?>
 <section class="currentprojects" id="currentprojects">
@@ -66,5 +67,8 @@ include_once("navbar.php");
     </div>
 
 </section>
+<?php
+include_once("footer.html");
+?>
 </body>
 </html>
